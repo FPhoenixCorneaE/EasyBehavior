@@ -18,7 +18,7 @@ allprojects {
 ```groovy
 dependencies {
     implementation 'com.google.android.material:material:1.2.1'
-	implementation 'com.github.FPhoenixCorneaE:EasyBehavior:1.0.0'
+	implementation 'com.github.FPhoenixCorneaE:EasyBehavior:1.0.1'
 }
 ```
 

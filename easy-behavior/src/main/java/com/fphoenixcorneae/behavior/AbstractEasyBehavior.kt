@@ -4,6 +4,7 @@ import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import android.view.ViewConfiguration
+import androidx.annotation.Keep
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.view.ViewCompat
 import kotlin.math.abs
@@ -58,6 +59,7 @@ abstract class AbstractEasyBehavior(context: Context?, attrs: AttributeSet?) : C
     }
 
     companion object {
+        @Keep
         @JvmStatic
         fun from(view: View): AbstractEasyBehavior {
             val params = view.layoutParams
